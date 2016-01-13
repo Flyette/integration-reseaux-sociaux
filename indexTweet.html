@@ -4,11 +4,8 @@
 
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script src="jquery-2.1.4.min.js">
 	<link rel="stylesheet" type="text/css" href="style.css">
-
-
-
+	<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
 </head>
 
 <body>
@@ -20,7 +17,14 @@
 	<aside class="twitterbar" role="twitterbar">
                 <a class="twitter-timeline" href="https://twitter.com/simplonMIP" data-widget-id="679289837170610176" height="400">Tweets de @simplonMIP</a>
                 <script>
-                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                    !function(d,s,id){
+                    	var js,fjs=d.getElementsByTagName(s)[0],
+                    	p=/^http:/.test(d.location)?'http':'https';
+                    	if(!d.getElementById(id)){js=d.createElement(s);
+                    		js.id=id;
+                    		js.src=p+"://platform.twitter.com/widgets.js";
+                    		fjs.parentNode.insertBefore(js,fjs);}}
+                    		(document,"script","twitter-wjs");
                 </script>
             </aside>
 
@@ -35,7 +39,6 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
 </script>
 <div class="fb-page" data-href="https://www.facebook.com/Simplon.co" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/Simplon.co"><a href="https://www.facebook.com/Simplon.co">Simplon.co</a></blockquote></div></div>
-
-<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
